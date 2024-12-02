@@ -1,5 +1,7 @@
 import re
 import sys
+from aoc import read_problem_input
+read_problem_input()
 
 lines = [line.strip() for line in sys.stdin.readlines()]
 
